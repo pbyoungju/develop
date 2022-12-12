@@ -1,0 +1,14 @@
+###
+POST http://192.168.1.2:9306/keypad/registrationNumber
+Content-Type: application/json
+
+{
+  "id": 102341,
+  "username": "pbyoungju",
+  "grade": "great",
+  "personalInfo": {
+    "personalNum": "900000-1000000",
+    "name": "아무개",
+    "phone": "01077777777"
+  }
+}
