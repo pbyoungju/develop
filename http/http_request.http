@@ -1,4 +1,7 @@
-###
+### health check
+GET http://192.168.1.2:9306/health/l7check
+
+### registrationNumber
 POST http://192.168.1.2:9306/keypad/registrationNumber
 Content-Type: application/json
 
